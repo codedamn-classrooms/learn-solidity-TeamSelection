@@ -1,5 +1,5 @@
-const Adoptions = artifacts.require("Adoption");
+const Team = artifacts.require("Team");
 
 module.exports = function (deployer) {
-  deployer.deploy(Adoptions);
+  deployer.deploy(Team);
 };
